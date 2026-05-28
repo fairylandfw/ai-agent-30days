@@ -25,4 +25,38 @@ DAY1_AI_CHATBOT
 ├── README.md
 ```
 
+## 安装依赖
 
+```bash
+pip install -r requirements.txt
+```
+
+## 配置环境变量
+
+复制`.env.example`为`.env`，然后填写自己的API Key：
+
+```Env
+OPENAI_API_KEY=your_api_key_here
+OPENAI_BASE_URL=https://api.openai.com/v1
+MODEL_NAME=gpt-4o-mini
+```
+
+## 运行
+
+```bash
+python main.py
+```
+
+## 退出
+
+输入：
+
+```textile
+exit
+```
+
+或者：
+
+```textile
+quit
+```
