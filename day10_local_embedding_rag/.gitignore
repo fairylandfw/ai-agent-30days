@@ -1,0 +1,14 @@
+.venv/
+venv/
+.env
+
+__pycache__/
+*.pyc
+
+logs/*.log
+data/vector_store/*
+models/*
+
+.DS_Store
+.vscode/
+.idea/
